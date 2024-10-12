@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dbtDb
+    database: dbtdb
+    schema: public
+    tables:
+      - name: order
+      - name: customer
