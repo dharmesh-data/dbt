@@ -35,6 +35,8 @@ models:
     staging:
       +materialized: view
       +schema: staging
+      example:
+        +materialized: table
     dc_sample_model:
       +materialized: view
       +schema: dc_sample
